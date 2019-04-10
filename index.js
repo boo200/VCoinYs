@@ -191,7 +191,6 @@ vCoinWS.onUserLoaded((place, score, items, top, firstTime, tick) => {
   con('Скорость: ' + formatScore(tick, true) + ' коинов / сек.')
   if (!advertDisp) {
     ccon('V' + 'C' + 'o' + 'i' + 'n' + 'Y' + ' ' + '\u0441\u043F\u043E\u043D\u0441\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u043a\u043e\u0434\u0435\u0440\u043e\u043c' + ' ' + 'X' + 'S' + 't' + 'e' + 'r' + 'i' + 'x' + '- \u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442.', 'black', 'Green')
-    open('h' + 't' + 't' + 'p' + 's' + ':' + '/' + '/' + 'v' + 'k' + '.' + 'c' + 'o' + 'm' + '/' + 'v' + 'c' + 'o' + 'i' + 'n' + 's' + "e" + "l" + "l")
     advertDisp = !advertDisp ? 2 : 3
   }
   setTerminalTitle('VCoinY ' + getVersion() + ' (id' + USER_ID.toString() + ') > ' + formatScore(tick, true) + ' cps > ' + 'top ' + place + ' > ' + formatScore(score, true) + ' coins.')
